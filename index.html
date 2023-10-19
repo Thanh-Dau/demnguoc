@@ -133,11 +133,11 @@
         }
     </script>
     <script>
-        var result = prompt("Thương Đẩu bao nhiêu phần trăm, không thương là giận á :<", 10000);
-        if (result != null) {
-            alert("đáp án của chị là:  " + result + "%");
+        var result = prompt("Thương Đẩu bao nhiêu phần trăm, không thương là giận á :<", 0);
+        if (result >= 100) {
+            alert(result + "%" + " yêu chị nhất trên đời hì hì");
         } else {
-            alert("Chị Không nhập số rồi bé hơn 100% thì không tặng quà đâu");
+            alert("Chị Không nhập số rồi, bé hơn 100% thì không tặng quà đâu");
         }
 
     </script>
